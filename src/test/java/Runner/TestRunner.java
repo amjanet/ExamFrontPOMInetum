@@ -5,7 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(features="src/test/java/Feature/shopping.feature",
-        glue = "StepDefinition")
+        glue = "StepDefinition",
+        plugin = {"pretty", "html:tarjet/test-report.html"}
+)
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

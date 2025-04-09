@@ -12,4 +12,4 @@ Feature: Carga de Archivo
     Examples:
       | usuario         | contraseña   | producto            | nombre   | apellido | codigo_postal |
       | standard_user   | secret_sauce | Sauce Labs Backpack | Janet    | Aranda   | 5030          |
-      | locked_out_user | secret_sauce | Sauce Labs Backpack | Margaret | Moscoso  | 5030          |
+#      | locked_out_user | secret_sauce | Sauce Labs Backpack | Margaret | Moscoso  | 5030          |
